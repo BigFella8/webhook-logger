@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: webhook-logger
-    runtime: node
-    buildCommand: npm install
-    startCommand: node index.js
-    env: node
